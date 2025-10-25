@@ -1,0 +1,70 @@
+name: Resize new images & Generate manifest
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'images/**'
+
+permissions:
+  contents: write
+
+jobs:
+  resize-and-manifest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install ImageMagick
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+
+      - name: Find new or modified images
+        id: new_images
+        run: |
+          echo "Finding new or modified images..."
+          FILES=$(git diff --name-only HEAD~1 HEAD | grep -E '^images/.*\.(jpg|jpeg|png|gif|webp)$' || true)
+          echo "files=$FILES" >> $GITHUB_OUTPUT
+
+      - name: Resize & optimize only new images
+        if: steps.new_images.outputs.files != ''
+        run: |
+          echo "Resizing new/modified images..."
+          for file in ${{ steps.new_images.outputs.files }}; do
+            echo "Processing $file"
+            mogrify -resize 33.3333% -strip -quality 85 "$file"
+          done
+
+      - name: Generate manifest.json
+        run: |
+          echo "Generating manifest.json..."
+          python3 <<'EOF'
+          import os, json
+          root = "images"
+          manifest = {}
+
+          for dirpath, _, files in os.walk(root):
+              images = [os.path.join(dirpath, f).replace("\\", "/")
+                        for f in files
+                        if f.lower().endswith((".jpg", ".jpeg", ".png", ".gif", ".webp"))]
+              if images:
+                  key = os.path.relpath(dirpath, root)
+                  manifest[key if key != "." else "root"] = images
+
+          with open("manifest.json", "w", encoding="utf-8") as f:
+              json.dump(manifest, f, indent=2)
+          EOF
+
+      - name: Commit and push changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions"
+            git config user.email "github-actions@github.com"
+            git add .
+            git commit -m "Resize new images and update manifest.json"
+            git push
+          else
+            echo "No changes to commit"
