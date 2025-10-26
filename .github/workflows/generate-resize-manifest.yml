@@ -1,4 +1,4 @@
-name: Resize new images & Generate manifest
+name: Smart Resize & Optimize Images
 
 on:
   push:
@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 jobs:
-  resize-and-manifest:
+  optimize-images:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,20 +22,29 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y imagemagick
 
-      - name: Find new or modified images
-        id: new_images
+      - name: Process large images
         run: |
-          echo "Finding new or modified images..."
-          FILES=$(git diff --name-only HEAD~1 HEAD | grep -E '^images/.*\.(jpg|jpeg|png|gif|webp)$' || true)
-          echo "files=$FILES" >> $GITHUB_OUTPUT
+          echo "Scanning for large images..."
 
-      - name: Resize & optimize only new images
-        if: steps.new_images.outputs.files != ''
-        run: |
-          echo "Resizing new/modified images..."
-          for file in ${{ steps.new_images.outputs.files }}; do
-            echo "Processing $file"
-            mogrify -resize 33.3333% -strip -quality 85 "$file"
+          find ./images -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) | while read file; do
+            size_bytes=$(stat -c%s "$file")
+            size_kb=$((size_bytes / 1024))
+
+            if [ "$size_kb" -ge 4096 ]; then
+              echo "📉 $file is ${size_kb}KB → resizing to 25% and optimizing..."
+              mogrify -resize 25% -strip -quality 85 "$file"
+            elif [ "$size_kb" -ge 2048 ]; then
+              echo "📉 $file is ${size_kb}KB → resizing to 33% and optimizing..."
+              mogrify -resize 33% -strip -quality 85 "$file"
+            elif [ "$size_kb" -ge 1024 ]; then
+              echo "📉 $file is ${size_kb}KB → resizing to 50% and optimizing..."
+              mogrify -resize 50% -strip -quality 85 "$file"
+            elif [ "$size_kb" -ge 512 ]; then
+              echo "✨ $file is ${size_kb}KB → optimizing only..."
+              mogrify -strip -quality 85 "$file"
+            else
+              echo "✅ $file is ${size_kb}KB → already optimized, skipping."
+            fi
           done
 
       - name: Generate manifest.json
@@ -64,7 +73,7 @@ jobs:
             git config user.name "github-actions"
             git config user.email "github-actions@github.com"
             git add .
-            git commit -m "Resize new images and update manifest.json"
+            git commit -m "Smart resize & optimize images + update manifest"
             git push
           else
-            echo "No changes to commit"
+            echo "No image changes to commit."
