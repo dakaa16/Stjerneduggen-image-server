@@ -32,32 +32,30 @@ jobs:
           import sharp from "sharp";
 
           const ROOT_DIR = ".";
+          const ALLOWED_FOLDERS = ["images", "dynamic-text"];
           const MAX_SIZE_KB = 500;
-          const TARGET_SIZE_KB = 300;
           const TARGET_SCALE = 0.3333;
 
           async function processImage(filePath) {
             const stats = await fs.stat(filePath);
             const sizeKB = stats.size / 1024;
 
-            if (sizeKB < MAX_SIZE_KB) return; // Already fine
+            if (sizeKB < MAX_SIZE_KB) return;
 
             console.log(`Processing large image: ${filePath} (${Math.round(sizeKB)} KB)`);
 
             const image = sharp(filePath);
             const metadata = await image.metadata();
-
             let width = metadata.width;
             let height = metadata.height;
 
-            // Resize only if image is huge
+            // Resize only if very large
             if (width > 2000 || height > 2000) {
               width = Math.round(width * TARGET_SCALE);
               height = Math.round(height * TARGET_SCALE);
               console.log(` → Resizing to ${width}x${height}`);
               await image.resize(width, height).jpeg({ quality: 80 }).toFile(filePath + ".tmp");
             } else {
-              // Just optimize (no resize)
               console.log(` → Optimizing without resize`);
               await image.jpeg({ quality: 80 }).toFile(filePath + ".tmp");
             }
@@ -91,7 +89,18 @@ jobs:
           }
 
           (async () => {
-            const manifest = await walkDir(ROOT_DIR);
+            const manifest = {};
+
+            for (const folder of ALLOWED_FOLDERS) {
+              const folderPath = path.join(ROOT_DIR, folder);
+              if (await fs.pathExists(folderPath)) {
+                console.log(`Scanning folder: ${folderPath}`);
+                manifest[folder] = await walkDir(folderPath);
+              } else {
+                console.log(`Skipping missing folder: ${folderPath}`);
+              }
+            }
+
             await fs.writeJson("manifest.json", manifest, { spaces: 2 });
             console.log("✅ manifest.json updated successfully");
           })();
