@@ -1,79 +1,107 @@
-name: Smart Resize & Optimize Images
+name: Optimize and Resize Images
 
 on:
   push:
-    branches: [ main ]
-    paths:
-      - 'images/**'
-
-permissions:
-  contents: write
+    branches:
+      - main
 
 jobs:
-  optimize-images:
+  optimize:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install ImageMagick
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install sharp fs-extra path
+
+      - name: Optimize and resize images
         run: |
-          sudo apt-get update
-          sudo apt-get install -y imagemagick
+          node <<'EOF'
+          import fs from "fs-extra";
+          import path from "path";
+          import sharp from "sharp";
 
-      - name: Process large images
-        run: |
-          echo "Scanning for large images..."
+          const ROOT_DIR = ".";
+          const MAX_SIZE_KB = 500;
+          const TARGET_SIZE_KB = 300;
+          const TARGET_SCALE = 0.3333;
 
-          find ./images -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) | while read file; do
-            size_bytes=$(stat -c%s "$file")
-            size_kb=$((size_bytes / 1024))
+          async function processImage(filePath) {
+            const stats = await fs.stat(filePath);
+            const sizeKB = stats.size / 1024;
 
-            if [ "$size_kb" -ge 4096 ]; then
-              echo "📉 $file is ${size_kb}KB → resizing to 25% and optimizing..."
-              mogrify -resize 25% -strip -quality 85 "$file"
-            elif [ "$size_kb" -ge 2048 ]; then
-              echo "📉 $file is ${size_kb}KB → resizing to 33% and optimizing..."
-              mogrify -resize 33% -strip -quality 85 "$file"
-            elif [ "$size_kb" -ge 1024 ]; then
-              echo "📉 $file is ${size_kb}KB → resizing to 50% and optimizing..."
-              mogrify -resize 50% -strip -quality 85 "$file"
-            elif [ "$size_kb" -ge 512 ]; then
-              echo "✨ $file is ${size_kb}KB → optimizing only..."
-              mogrify -strip -quality 85 "$file"
-            else
-              echo "✅ $file is ${size_kb}KB → already optimized, skipping."
-            fi
-          done
+            if (sizeKB < MAX_SIZE_KB) return; // Already fine
 
-      - name: Generate manifest.json
-        run: |
-          echo "Generating manifest.json..."
-          python3 <<'EOF'
-          import os, json
-          root = "images"
-          manifest = {}
+            console.log(`Processing large image: ${filePath} (${Math.round(sizeKB)} KB)`);
 
-          for dirpath, _, files in os.walk(root):
-              images = [os.path.join(dirpath, f).replace("\\", "/")
-                        for f in files
-                        if f.lower().endswith((".jpg", ".jpeg", ".png", ".gif", ".webp"))]
-              if images:
-                  key = os.path.relpath(dirpath, root)
-                  manifest[key if key != "." else "root"] = images
+            const image = sharp(filePath);
+            const metadata = await image.metadata();
 
-          with open("manifest.json", "w", encoding="utf-8") as f:
-              json.dump(manifest, f, indent=2)
+            let width = metadata.width;
+            let height = metadata.height;
+
+            // Resize only if image is huge
+            if (width > 2000 || height > 2000) {
+              width = Math.round(width * TARGET_SCALE);
+              height = Math.round(height * TARGET_SCALE);
+              console.log(` → Resizing to ${width}x${height}`);
+              await image.resize(width, height).jpeg({ quality: 80 }).toFile(filePath + ".tmp");
+            } else {
+              // Just optimize (no resize)
+              console.log(` → Optimizing without resize`);
+              await image.jpeg({ quality: 80 }).toFile(filePath + ".tmp");
+            }
+
+            await fs.rename(filePath + ".tmp", filePath);
+          }
+
+          async function walkDir(dir) {
+            const entries = await fs.readdir(dir, { withFileTypes: true });
+            const result = [];
+            for (const entry of entries) {
+              const fullPath = path.join(dir, entry.name);
+              if (entry.isDirectory()) {
+                result.push({
+                  name: entry.name,
+                  type: "directory",
+                  children: await walkDir(fullPath),
+                });
+              } else if (entry.isFile()) {
+                result.push({
+                  name: entry.name,
+                  type: "file",
+                  path: fullPath.replace(/^\.?\//, ""),
+                });
+                if (/\.(jpg|jpeg|png|webp)$/i.test(entry.name)) {
+                  await processImage(fullPath);
+                }
+              }
+            }
+            return result;
+          }
+
+          (async () => {
+            const manifest = await walkDir(ROOT_DIR);
+            await fs.writeJson("manifest.json", manifest, { spaces: 2 });
+            console.log("✅ manifest.json updated successfully");
+          })();
           EOF
 
-      - name: Commit and push changes
+      - name: Commit and push changes if any
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git config user.name "github-actions"
             git config user.email "github-actions@github.com"
             git add .
-            git commit -m "Smart resize & optimize images + update manifest"
+            git commit -m "Resize new images and update manifest.json"
             git push
           else
-            echo "No image changes to commit."
+            echo "No changes to commit"
+          fi
