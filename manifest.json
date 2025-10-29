@@ -217,6 +217,47 @@
       ]
     },
     {
+      "name": "ForsideKarusel",
+      "type": "directory",
+      "children": [
+        {
+          "name": "PXL_20250517_082606155.PORTRAIT.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20250517_082606155.PORTRAIT.jpg"
+        },
+        {
+          "name": "PXL_20251003_085254136.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20251003_085254136.jpg"
+        },
+        {
+          "name": "PXL_20251024_125353037.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20251024_125353037.jpg"
+        },
+        {
+          "name": "PXL_20251024_125739664.PORTRAIT.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20251024_125739664.PORTRAIT.jpg"
+        },
+        {
+          "name": "PXL_20251024_131643326.PORTRAIT.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20251024_131643326.PORTRAIT.jpg"
+        },
+        {
+          "name": "PXL_20251024_131709846.PORTRAIT.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20251024_131709846.PORTRAIT.jpg"
+        },
+        {
+          "name": "PXL_20251024_134349987.PORTRAIT.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20251024_134349987.PORTRAIT.jpg"
+        }
+      ]
+    },
+    {
       "name": "Forår",
       "type": "directory",
       "children": [
