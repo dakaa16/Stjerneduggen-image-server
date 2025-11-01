@@ -289,6 +289,11 @@
       "path": "images/Kitchen.jpg"
     },
     {
+      "name": "Logo.png",
+      "type": "file",
+      "path": "images/Logo.png"
+    },
+    {
       "name": "MeInTree.jpg",
       "type": "file",
       "path": "images/MeInTree.jpg"
