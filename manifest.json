@@ -309,6 +309,11 @@
       "path": "images/PlayKitchenClosed.jpg"
     },
     {
+      "name": "PlayKitchenOpen.jpg",
+      "type": "file",
+      "path": "images/PlayKitchenOpen.jpg"
+    },
+    {
       "name": "PlayTower1.jpg",
       "type": "file",
       "path": "images/PlayTower1.jpg"
