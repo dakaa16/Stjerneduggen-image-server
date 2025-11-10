@@ -221,69 +221,104 @@
       "type": "directory",
       "children": [
         {
-          "name": ".trashed-1764921854-PXL_20251104_081906989.PORTRAIT.jpg",
+          "name": "A.jpg",
           "type": "file",
-          "path": "images/ForsideKarusel/.trashed-1764921854-PXL_20251104_081906989.PORTRAIT.jpg"
+          "path": "images/ForsideKarusel/A.jpg"
         },
         {
-          "name": "PXL_20250517_082606155.PORTRAIT.jpg",
+          "name": "B.jpg",
           "type": "file",
-          "path": "images/ForsideKarusel/PXL_20250517_082606155.PORTRAIT.jpg"
+          "path": "images/ForsideKarusel/B.jpg"
         },
         {
-          "name": "PXL_20250816_151727690.jpg",
+          "name": "C.jpg",
           "type": "file",
-          "path": "images/ForsideKarusel/PXL_20250816_151727690.jpg"
+          "path": "images/ForsideKarusel/C.jpg"
         },
         {
-          "name": "PXL_20251003_085254136.jpg",
+          "name": "D.jpg",
           "type": "file",
-          "path": "images/ForsideKarusel/PXL_20251003_085254136.jpg"
+          "path": "images/ForsideKarusel/D.jpg"
         },
         {
-          "name": "PXL_20251024_125353037.jpg",
+          "name": "E.jpg",
           "type": "file",
-          "path": "images/ForsideKarusel/PXL_20251024_125353037.jpg"
+          "path": "images/ForsideKarusel/E.jpg"
         },
         {
-          "name": "PXL_20251024_125739664.PORTRAIT.jpg",
+          "name": "F.jpg",
           "type": "file",
-          "path": "images/ForsideKarusel/PXL_20251024_125739664.PORTRAIT.jpg"
+          "path": "images/ForsideKarusel/F.jpg"
         },
         {
-          "name": "PXL_20251024_131643326.PORTRAIT.jpg",
+          "name": "G.jpg",
           "type": "file",
-          "path": "images/ForsideKarusel/PXL_20251024_131643326.PORTRAIT.jpg"
+          "path": "images/ForsideKarusel/G.jpg"
         },
         {
-          "name": "PXL_20251024_131709846.PORTRAIT.jpg",
+          "name": "H.jpg",
           "type": "file",
-          "path": "images/ForsideKarusel/PXL_20251024_131709846.PORTRAIT.jpg"
+          "path": "images/ForsideKarusel/H.jpg"
         },
         {
-          "name": "PXL_20251024_134349987.PORTRAIT.jpg",
+          "name": "I.jpg",
           "type": "file",
-          "path": "images/ForsideKarusel/PXL_20251024_134349987.PORTRAIT.jpg"
+          "path": "images/ForsideKarusel/I.jpg"
         },
         {
-          "name": "PXL_20251027_092725872.PORTRAIT.jpg",
+          "name": "II.jpg",
           "type": "file",
-          "path": "images/ForsideKarusel/PXL_20251027_092725872.PORTRAIT.jpg"
+          "path": "images/ForsideKarusel/II.jpg"
         },
         {
-          "name": "PXL_20251031_144042968.PORTRAIT.jpg",
+          "name": "J.jpg",
           "type": "file",
-          "path": "images/ForsideKarusel/PXL_20251031_144042968.PORTRAIT.jpg"
+          "path": "images/ForsideKarusel/J.jpg"
         },
         {
-          "name": "PXL_20251104_080239791.PORTRAIT.ORIGINAL.jpg",
+          "name": "K.jpg",
           "type": "file",
-          "path": "images/ForsideKarusel/PXL_20251104_080239791.PORTRAIT.ORIGINAL.jpg"
+          "path": "images/ForsideKarusel/K.jpg"
         },
         {
-          "name": "PXL_20251104_092437161.PORTRAIT.jpg",
+          "name": "L.jpg",
           "type": "file",
-          "path": "images/ForsideKarusel/PXL_20251104_092437161.PORTRAIT.jpg"
+          "path": "images/ForsideKarusel/L.jpg"
+        },
+        {
+          "name": "M.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/M.jpg"
+        },
+        {
+          "name": "N.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/N.jpg"
+        },
+        {
+          "name": "O.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/O.jpg"
+        },
+        {
+          "name": "PXL_20251110_074448254.PORTRAIT.ORIGINAL.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20251110_074448254.PORTRAIT.ORIGINAL.jpg"
+        },
+        {
+          "name": "PXL_20251110_081032286.PORTRAIT.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20251110_081032286.PORTRAIT.jpg"
+        },
+        {
+          "name": "PXL_20251110_112253547.PORTRAIT.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20251110_112253547.PORTRAIT.jpg"
+        },
+        {
+          "name": "PXL_20251110_120143357.PORTRAIT.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20251110_120143357.PORTRAIT.jpg"
         }
       ]
     },
