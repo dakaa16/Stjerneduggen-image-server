@@ -286,6 +286,11 @@
           "path": "images/ForsideKarusel/L.jpg"
         },
         {
+          "name": "LL.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/LL.jpg"
+        },
+        {
           "name": "M.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/M.jpg"
@@ -319,11 +324,6 @@
           "name": "PXL_20251110_120143357.PORTRAIT.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/PXL_20251110_120143357.PORTRAIT.jpg"
-        },
-        {
-          "name": "PXL_20251111_073358529.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/PXL_20251111_073358529.PORTRAIT.jpg"
         }
       ]
     },
