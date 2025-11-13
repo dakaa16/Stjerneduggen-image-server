@@ -276,6 +276,11 @@
           "path": "images/ForsideKarusel/J.jpg"
         },
         {
+          "name": "JJ.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/JJ.jpg"
+        },
+        {
           "name": "K.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/K.jpg"
