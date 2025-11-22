@@ -281,6 +281,21 @@
           "path": "images/ForsideKarusel/JJ.jpg"
         },
         {
+          "name": "JJJ.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/JJJ.jpg"
+        },
+        {
+          "name": "JJJJ.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/JJJJ.jpg"
+        },
+        {
+          "name": "JJJJJ.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/JJJJJ.jpg"
+        },
+        {
           "name": "K.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/K.jpg"
@@ -329,6 +344,16 @@
           "name": "PXL_20251110_120143357.PORTRAIT.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/PXL_20251110_120143357.PORTRAIT.jpg"
+        },
+        {
+          "name": "PXL_20251120_141125113.PORTRAIT.ORIGINAL.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20251120_141125113.PORTRAIT.ORIGINAL.jpg"
+        },
+        {
+          "name": "PXL_20251121_100930470.PORTRAIT.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20251121_100930470.PORTRAIT.jpg"
         }
       ]
     },
