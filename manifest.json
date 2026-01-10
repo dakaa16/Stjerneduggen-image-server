@@ -217,6 +217,11 @@
       ]
     },
     {
+      "name": "EfterårBaggrund.jpg",
+      "type": "file",
+      "path": "images/EfterårBaggrund.jpg"
+    },
+    {
       "name": "ForsideKarusel",
       "type": "directory",
       "children": [
@@ -479,6 +484,11 @@
       "path": "images/ReadingCorner.jpg"
     },
     {
+      "name": "SommerBaggrund.jpg",
+      "type": "file",
+      "path": "images/SommerBaggrund.jpg"
+    },
+    {
       "name": "Table.jpg",
       "type": "file",
       "path": "images/Table.jpg"
@@ -497,6 +507,11 @@
       "name": "Tree.jpg",
       "type": "file",
       "path": "images/Tree.jpg"
+    },
+    {
+      "name": "VinterBaggrund.jpg",
+      "type": "file",
+      "path": "images/VinterBaggrund.jpg"
     },
     {
       "name": "Water.jpg",
