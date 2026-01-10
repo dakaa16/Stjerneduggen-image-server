@@ -419,6 +419,11 @@
       ]
     },
     {
+      "name": "ForårBaggrund.jpg",
+      "type": "file",
+      "path": "images/ForårBaggrund.jpg"
+    },
+    {
       "name": "FrontYard.jpg",
       "type": "file",
       "path": "images/FrontYard.jpg"
