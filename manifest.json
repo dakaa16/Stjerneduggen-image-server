@@ -5,119 +5,222 @@
       "type": "directory",
       "children": [
         {
-          "name": "PXL_20251003_085008779.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251003_085008779.jpg"
+          "name": "November",
+          "type": "directory",
+          "children": [
+            {
+              "name": "1767700575-PXL_20251102_143833162.PORTRAIT.ORIGINAL.jpg",
+              "type": "file",
+              "path": "images/Efterår/November/1767700575-PXL_20251102_143833162.PORTRAIT.ORIGINAL.jpg"
+            },
+            {
+              "name": "M.jpg",
+              "type": "file",
+              "path": "images/Efterår/November/M.jpg"
+            },
+            {
+              "name": "N.jpg",
+              "type": "file",
+              "path": "images/Efterår/November/N.jpg"
+            },
+            {
+              "name": "P.jpg",
+              "type": "file",
+              "path": "images/Efterår/November/P.jpg"
+            },
+            {
+              "name": "PXL_20260117_112349075.MP.jpg",
+              "type": "file",
+              "path": "images/Efterår/November/PXL_20260117_112349075.MP.jpg"
+            },
+            {
+              "name": "Q.jpg",
+              "type": "file",
+              "path": "images/Efterår/November/Q.jpg"
+            },
+            {
+              "name": "R.jpg",
+              "type": "file",
+              "path": "images/Efterår/November/R.jpg"
+            },
+            {
+              "name": "S.jpg",
+              "type": "file",
+              "path": "images/Efterår/November/S.jpg"
+            }
+          ]
         },
         {
-          "name": "PXL_20251003_085254136.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251003_085254136.jpg"
+          "name": "Oktober",
+          "type": "directory",
+          "children": [
+            {
+              "name": "H.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/H.jpg"
+            },
+            {
+              "name": "I.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/I.jpg"
+            },
+            {
+              "name": "II.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/II.jpg"
+            },
+            {
+              "name": "LL.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/LL.jpg"
+            },
+            {
+              "name": "PXL_20250929_082804257.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20250929_082804257.jpg"
+            },
+            {
+              "name": "PXL_20251003_085008779.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251003_085008779.jpg"
+            },
+            {
+              "name": "PXL_20251003_085254136.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251003_085254136.jpg"
+            },
+            {
+              "name": "PXL_20251003_085326552.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251003_085326552.jpg"
+            },
+            {
+              "name": "PXL_20251021_072932307.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251021_072932307.jpg"
+            },
+            {
+              "name": "PXL_20251024_125353037.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251024_125353037.jpg"
+            },
+            {
+              "name": "PXL_20251024_125624266.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251024_125624266.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20251024_125739664.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251024_125739664.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20251024_125803293.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251024_125803293.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20251024_130516833.PORTRAIT.ORIGINAL.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251024_130516833.PORTRAIT.ORIGINAL.jpg"
+            },
+            {
+              "name": "PXL_20251024_131607001.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251024_131607001.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20251024_131643326.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251024_131643326.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20251024_131709846.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251024_131709846.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20251024_131805246.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251024_131805246.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20251024_132529620.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251024_132529620.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20251024_133319705.PORTRAIT.ORIGINAL.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251024_133319705.PORTRAIT.ORIGINAL.jpg"
+            },
+            {
+              "name": "PXL_20251024_134349987.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251024_134349987.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20251024_134529878.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251024_134529878.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20251024_135351580.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251024_135351580.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20251024_135416370.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251024_135416370.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20251024_135944033.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251024_135944033.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20251024_140025834.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251024_140025834.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20251024_141850565.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251024_141850565.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20251025_083406668.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Efterår/Oktober/PXL_20251025_083406668.PORTRAIT.jpg"
+            }
+          ]
         },
         {
-          "name": "PXL_20251003_085326552.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251003_085326552.jpg"
-        },
-        {
-          "name": "PXL_20251021_072932307.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251021_072932307.jpg"
-        },
-        {
-          "name": "PXL_20251024_125353037.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251024_125353037.jpg"
-        },
-        {
-          "name": "PXL_20251024_125624266.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251024_125624266.PORTRAIT.jpg"
-        },
-        {
-          "name": "PXL_20251024_125739664.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251024_125739664.PORTRAIT.jpg"
-        },
-        {
-          "name": "PXL_20251024_125803293.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251024_125803293.PORTRAIT.jpg"
-        },
-        {
-          "name": "PXL_20251024_130516833.PORTRAIT.ORIGINAL.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251024_130516833.PORTRAIT.ORIGINAL.jpg"
-        },
-        {
-          "name": "PXL_20251024_131607001.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251024_131607001.PORTRAIT.jpg"
-        },
-        {
-          "name": "PXL_20251024_131643326.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251024_131643326.PORTRAIT.jpg"
-        },
-        {
-          "name": "PXL_20251024_131709846.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251024_131709846.PORTRAIT.jpg"
-        },
-        {
-          "name": "PXL_20251024_131805246.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251024_131805246.PORTRAIT.jpg"
-        },
-        {
-          "name": "PXL_20251024_132529620.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251024_132529620.PORTRAIT.jpg"
-        },
-        {
-          "name": "PXL_20251024_133319705.PORTRAIT.ORIGINAL.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251024_133319705.PORTRAIT.ORIGINAL.jpg"
-        },
-        {
-          "name": "PXL_20251024_134349987.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251024_134349987.PORTRAIT.jpg"
-        },
-        {
-          "name": "PXL_20251024_134529878.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251024_134529878.PORTRAIT.jpg"
-        },
-        {
-          "name": "PXL_20251024_135351580.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251024_135351580.PORTRAIT.jpg"
-        },
-        {
-          "name": "PXL_20251024_135416370.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251024_135416370.PORTRAIT.jpg"
-        },
-        {
-          "name": "PXL_20251024_135944033.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251024_135944033.PORTRAIT.jpg"
-        },
-        {
-          "name": "PXL_20251024_140025834.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251024_140025834.PORTRAIT.jpg"
-        },
-        {
-          "name": "PXL_20251024_141850565.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251024_141850565.PORTRAIT.jpg"
-        },
-        {
-          "name": "PXL_20251025_083406668.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Efterår/PXL_20251025_083406668.PORTRAIT.jpg"
+          "name": "September",
+          "type": "directory",
+          "children": [
+            {
+              "name": "B.jpg",
+              "type": "file",
+              "path": "images/Efterår/September/B.jpg"
+            },
+            {
+              "name": "E.jpg",
+              "type": "file",
+              "path": "images/Efterår/September/E.jpg"
+            },
+            {
+              "name": "F.jpg",
+              "type": "file",
+              "path": "images/Efterår/September/F.jpg"
+            },
+            {
+              "name": "G.jpg",
+              "type": "file",
+              "path": "images/Efterår/September/G.jpg"
+            }
+          ]
         },
         {
           "name": "stående",
@@ -232,11 +335,6 @@
       "type": "directory",
       "children": [
         {
-          "name": "1767700575-PXL_20251102_143833162.PORTRAIT.ORIGINAL.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/1767700575-PXL_20251102_143833162.PORTRAIT.ORIGINAL.jpg"
-        },
-        {
           "name": "1769701053-PXL_20251208_075449763.PORTRAIT.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/1769701053-PXL_20251208_075449763.PORTRAIT.jpg"
@@ -252,16 +350,6 @@
           "path": "images/ForsideKarusel/1769701085-PXL_20251212_093606559.PORTRAIT.jpg"
         },
         {
-          "name": "A.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/A.jpg"
-        },
-        {
-          "name": "B.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/B.jpg"
-        },
-        {
           "name": "C.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/C.jpg"
@@ -270,36 +358,6 @@
           "name": "D.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/D.jpg"
-        },
-        {
-          "name": "E.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/E.jpg"
-        },
-        {
-          "name": "F.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/F.jpg"
-        },
-        {
-          "name": "G.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/G.jpg"
-        },
-        {
-          "name": "H.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/H.jpg"
-        },
-        {
-          "name": "I.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/I.jpg"
-        },
-        {
-          "name": "II.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/II.jpg"
         },
         {
           "name": "J.jpg",
@@ -327,39 +385,14 @@
           "path": "images/ForsideKarusel/JJJJJ.jpg"
         },
         {
-          "name": "K.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/K.jpg"
-        },
-        {
           "name": "L.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/L.jpg"
         },
         {
-          "name": "LL.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/LL.jpg"
-        },
-        {
-          "name": "M.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/M.jpg"
-        },
-        {
-          "name": "N.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/N.jpg"
-        },
-        {
           "name": "O.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/O.jpg"
-        },
-        {
-          "name": "P.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/P.jpg"
         },
         {
           "name": "PP.jpg",
@@ -382,21 +415,6 @@
           "path": "images/ForsideKarusel/PXL_20260114_090925411.PORTRAIT.jpg"
         },
         {
-          "name": "Q.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/Q.jpg"
-        },
-        {
-          "name": "R.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/R.jpg"
-        },
-        {
-          "name": "S.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/S.jpg"
-        },
-        {
           "name": "T.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/T.jpg"
@@ -405,6 +423,16 @@
           "name": "U.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/U.jpg"
+        },
+        {
+          "name": "UU.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/UU.jpg"
+        },
+        {
+          "name": "UUU.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/UUU.jpg"
         },
         {
           "name": "V.jpg",
@@ -448,9 +476,15 @@
       "type": "directory",
       "children": [
         {
-          "name": "PXL_20250929_082804257.jpg",
-          "type": "file",
-          "path": "images/Forår/PXL_20250929_082804257.jpg"
+          "name": "Maj",
+          "type": "directory",
+          "children": [
+            {
+              "name": "A.jpg",
+              "type": "file",
+              "path": "images/Forår/Maj/A.jpg"
+            }
+          ]
         }
       ]
     },
@@ -470,9 +504,45 @@
       "path": "images/GrassFooter1.png"
     },
     {
+      "name": "Hverdag",
+      "type": "directory",
+      "children": [
+        {
+          "name": "PXL_20260112_093013934.PORTRAIT.ORIGINAL.jpg",
+          "type": "file",
+          "path": "images/Hverdag/PXL_20260112_093013934.PORTRAIT.ORIGINAL.jpg"
+        },
+        {
+          "name": "PXL_20260113_091613173.PORTRAIT.jpg",
+          "type": "file",
+          "path": "images/Hverdag/PXL_20260113_091613173.PORTRAIT.jpg"
+        },
+        {
+          "name": "PXL_20260116_085504626.MP.jpg",
+          "type": "file",
+          "path": "images/Hverdag/PXL_20260116_085504626.MP.jpg"
+        },
+        {
+          "name": "PXL_20260116_090342165.jpg",
+          "type": "file",
+          "path": "images/Hverdag/PXL_20260116_090342165.jpg"
+        },
+        {
+          "name": "PXL_20260116_122037934.MP.jpg",
+          "type": "file",
+          "path": "images/Hverdag/PXL_20260116_122037934.MP.jpg"
+        }
+      ]
+    },
+    {
       "name": "ImageToCome.jpg",
       "type": "file",
       "path": "images/ImageToCome.jpg"
+    },
+    {
+      "name": "K.jpg",
+      "type": "file",
+      "path": "images/K.jpg"
     },
     {
       "name": "Kitchen.jpg",
@@ -515,6 +585,17 @@
       "path": "images/ReadingCorner.jpg"
     },
     {
+      "name": "Sommer",
+      "type": "directory",
+      "children": [
+        {
+          "name": "ToysOnGrass.jpg",
+          "type": "file",
+          "path": "images/Sommer/ToysOnGrass.jpg"
+        }
+      ]
+    },
+    {
       "name": "SommerBaggrund.jpg",
       "type": "file",
       "path": "images/SommerBaggrund.jpg"
@@ -530,11 +611,6 @@
       "path": "images/Tennis.jpg"
     },
     {
-      "name": "ToysOnGrass.jpg",
-      "type": "file",
-      "path": "images/ToysOnGrass.jpg"
-    },
-    {
       "name": "Tree.jpg",
       "type": "file",
       "path": "images/Tree.jpg"
@@ -544,69 +620,111 @@
       "type": "directory",
       "children": [
         {
-          "name": "PXL_20260106_142045485.MP.jpg",
-          "type": "file",
-          "path": "images/Vinter/PXL_20260106_142045485.MP.jpg"
+          "name": "December",
+          "type": "directory",
+          "children": [
+            {
+              "name": "Æ.jpg",
+              "type": "file",
+              "path": "images/Vinter/December/Æ.jpg"
+            }
+          ]
         },
         {
-          "name": "PXL_20260108_092310123.MP.jpg",
-          "type": "file",
-          "path": "images/Vinter/PXL_20260108_092310123.MP.jpg"
-        },
-        {
-          "name": "PXL_20260108_093128818.jpg",
-          "type": "file",
-          "path": "images/Vinter/PXL_20260108_093128818.jpg"
-        },
-        {
-          "name": "PXL_20260110_124807998.MP.jpg",
-          "type": "file",
-          "path": "images/Vinter/PXL_20260110_124807998.MP.jpg"
-        },
-        {
-          "name": "PXL_20260112_075237929.PORTRAIT.ORIGINAL.jpg",
-          "type": "file",
-          "path": "images/Vinter/PXL_20260112_075237929.PORTRAIT.ORIGINAL.jpg"
-        },
-        {
-          "name": "PXL_20260112_075440601.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Vinter/PXL_20260112_075440601.PORTRAIT.jpg"
-        },
-        {
-          "name": "PXL_20260112_081518255.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Vinter/PXL_20260112_081518255.PORTRAIT.jpg"
-        },
-        {
-          "name": "PXL_20260112_093013934.PORTRAIT.ORIGINAL.jpg",
-          "type": "file",
-          "path": "images/Vinter/PXL_20260112_093013934.PORTRAIT.ORIGINAL.jpg"
-        },
-        {
-          "name": "PXL_20260112_100344260.jpg",
-          "type": "file",
-          "path": "images/Vinter/PXL_20260112_100344260.jpg"
-        },
-        {
-          "name": "PXL_20260113_083752174.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Vinter/PXL_20260113_083752174.PORTRAIT.jpg"
-        },
-        {
-          "name": "PXL_20260113_085823560.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Vinter/PXL_20260113_085823560.PORTRAIT.jpg"
-        },
-        {
-          "name": "PXL_20260114_091214312.PORTRAIT.ORIGINAL.jpg",
-          "type": "file",
-          "path": "images/Vinter/PXL_20260114_091214312.PORTRAIT.ORIGINAL.jpg"
-        },
-        {
-          "name": "PXL_20260114_091218492.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Vinter/PXL_20260114_091218492.PORTRAIT.jpg"
+          "name": "Januar",
+          "type": "directory",
+          "children": [
+            {
+              "name": "PXL_20260105_085216248.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Vinter/Januar/PXL_20260105_085216248.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20260105_085942262.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Vinter/Januar/PXL_20260105_085942262.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20260108_092310123.MP.jpg",
+              "type": "file",
+              "path": "images/Vinter/Januar/PXL_20260108_092310123.MP.jpg"
+            },
+            {
+              "name": "PXL_20260108_093128818.jpg",
+              "type": "file",
+              "path": "images/Vinter/Januar/PXL_20260108_093128818.jpg"
+            },
+            {
+              "name": "PXL_20260109_091146396.MP.jpg",
+              "type": "file",
+              "path": "images/Vinter/Januar/PXL_20260109_091146396.MP.jpg"
+            },
+            {
+              "name": "PXL_20260109_141424212.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Vinter/Januar/PXL_20260109_141424212.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20260109_141441358.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Vinter/Januar/PXL_20260109_141441358.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20260110_124807998.MP.jpg",
+              "type": "file",
+              "path": "images/Vinter/Januar/PXL_20260110_124807998.MP.jpg"
+            },
+            {
+              "name": "PXL_20260112_075237929.PORTRAIT.ORIGINAL.jpg",
+              "type": "file",
+              "path": "images/Vinter/Januar/PXL_20260112_075237929.PORTRAIT.ORIGINAL.jpg"
+            },
+            {
+              "name": "PXL_20260112_075440601.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Vinter/Januar/PXL_20260112_075440601.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20260112_081518255.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Vinter/Januar/PXL_20260112_081518255.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20260112_100344260.jpg",
+              "type": "file",
+              "path": "images/Vinter/Januar/PXL_20260112_100344260.jpg"
+            },
+            {
+              "name": "PXL_20260113_083752174.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Vinter/Januar/PXL_20260113_083752174.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20260113_085823560.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Vinter/Januar/PXL_20260113_085823560.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20260114_091214312.PORTRAIT.ORIGINAL.jpg",
+              "type": "file",
+              "path": "images/Vinter/Januar/PXL_20260114_091214312.PORTRAIT.ORIGINAL.jpg"
+            },
+            {
+              "name": "PXL_20260114_091218492.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Vinter/Januar/PXL_20260114_091218492.PORTRAIT.jpg"
+            },
+            {
+              "name": "PXL_20260114_102853863.MP.jpg",
+              "type": "file",
+              "path": "images/Vinter/Januar/PXL_20260114_102853863.MP.jpg"
+            },
+            {
+              "name": "PXL_20260120_093331649.PORTRAIT.jpg",
+              "type": "file",
+              "path": "images/Vinter/Januar/PXL_20260120_093331649.PORTRAIT.jpg"
+            }
+          ]
         }
       ]
     },
