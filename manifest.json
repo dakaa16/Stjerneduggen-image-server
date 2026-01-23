@@ -335,19 +335,9 @@
       "type": "directory",
       "children": [
         {
-          "name": "1769701053-PXL_20251208_075449763.PORTRAIT.jpg",
+          "name": "A.jpg",
           "type": "file",
-          "path": "images/ForsideKarusel/1769701053-PXL_20251208_075449763.PORTRAIT.jpg"
-        },
-        {
-          "name": "1769701064-PXL_20251208_082043007.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/1769701064-PXL_20251208_082043007.PORTRAIT.jpg"
-        },
-        {
-          "name": "1769701085-PXL_20251212_093606559.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/1769701085-PXL_20251212_093606559.PORTRAIT.jpg"
+          "path": "images/ForsideKarusel/A.jpg"
         },
         {
           "name": "C.jpg",
@@ -390,6 +380,11 @@
           "path": "images/ForsideKarusel/L.jpg"
         },
         {
+          "name": "M.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/M.jpg"
+        },
+        {
           "name": "O.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/O.jpg"
@@ -400,9 +395,9 @@
           "path": "images/ForsideKarusel/PP.jpg"
         },
         {
-          "name": "PXL_20251215_085134399.PORTRAIT.jpg",
+          "name": "PPP.jpg",
           "type": "file",
-          "path": "images/ForsideKarusel/PXL_20251215_085134399.PORTRAIT.jpg"
+          "path": "images/ForsideKarusel/PPP.jpg"
         },
         {
           "name": "PXL_20260114_090919986.PORTRAIT.jpg",
@@ -413,6 +408,11 @@
           "name": "PXL_20260114_090925411.PORTRAIT.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/PXL_20260114_090925411.PORTRAIT.jpg"
+        },
+        {
+          "name": "Q.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/Q.jpg"
         },
         {
           "name": "T.jpg",
@@ -433,6 +433,11 @@
           "name": "UUU.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/UUU.jpg"
+        },
+        {
+          "name": "UUUU.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/UUUU.jpg"
         },
         {
           "name": "V.jpg",
