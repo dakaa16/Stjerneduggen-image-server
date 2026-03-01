@@ -380,6 +380,11 @@
           "path": "images/ForsideKarusel/M.jpg"
         },
         {
+          "name": "O.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/O.jpg"
+        },
+        {
           "name": "PXL_20260114_090919986.PORTRAIT.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/PXL_20260114_090919986.PORTRAIT.jpg"
@@ -573,11 +578,6 @@
       "name": "MeInTree.jpg",
       "type": "file",
       "path": "images/MeInTree.jpg"
-    },
-    {
-      "name": "O.jpg",
-      "type": "file",
-      "path": "images/O.jpg"
     },
     {
       "name": "Omgivelser",
