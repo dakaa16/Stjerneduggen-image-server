@@ -5,6 +5,16 @@
       "type": "directory",
       "children": [
         {
+          "name": "C.jpg",
+          "type": "file",
+          "path": "images/Efterår/C.jpg"
+        },
+        {
+          "name": "L.jpg",
+          "type": "file",
+          "path": "images/Efterår/L.jpg"
+        },
+        {
           "name": "November",
           "type": "directory",
           "children": [
@@ -335,16 +345,6 @@
       "type": "directory",
       "children": [
         {
-          "name": "A.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/A.jpg"
-        },
-        {
-          "name": "C.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/C.jpg"
-        },
-        {
           "name": "D.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/D.jpg"
@@ -375,29 +375,9 @@
           "path": "images/ForsideKarusel/JJJJJ.jpg"
         },
         {
-          "name": "L.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/L.jpg"
-        },
-        {
           "name": "M.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/M.jpg"
-        },
-        {
-          "name": "O.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/O.jpg"
-        },
-        {
-          "name": "PP.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/PP.jpg"
-        },
-        {
-          "name": "PPP.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/PPP.jpg"
         },
         {
           "name": "PXL_20260114_090919986.PORTRAIT.jpg",
@@ -410,19 +390,54 @@
           "path": "images/ForsideKarusel/PXL_20260114_090925411.PORTRAIT.jpg"
         },
         {
+          "name": "PXL_20260130_092549426.MP.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20260130_092549426.MP.jpg"
+        },
+        {
+          "name": "PXL_20260204_085315754.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20260204_085315754.jpg"
+        },
+        {
+          "name": "PXL_20260208_082823267.PORTRAIT.ORIGINAL.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20260208_082823267.PORTRAIT.ORIGINAL.jpg"
+        },
+        {
+          "name": "PXL_20260220_084436290.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20260220_084436290.jpg"
+        },
+        {
+          "name": "PXL_20260223_135535136.MP.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20260223_135535136.MP.jpg"
+        },
+        {
+          "name": "PXL_20260227_091024571.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20260227_091024571.jpg"
+        },
+        {
+          "name": "PXL_20260227_134642635.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20260227_134642635.jpg"
+        },
+        {
+          "name": "PXL_20260228_144438306.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/PXL_20260228_144438306.jpg"
+        },
+        {
+          "name": "Piger der går.jpg",
+          "type": "file",
+          "path": "images/ForsideKarusel/Piger der går.jpg"
+        },
+        {
           "name": "Q.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/Q.jpg"
-        },
-        {
-          "name": "T.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/T.jpg"
-        },
-        {
-          "name": "U.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/U.jpg"
         },
         {
           "name": "UU.jpg",
@@ -430,49 +445,9 @@
           "path": "images/ForsideKarusel/UU.jpg"
         },
         {
-          "name": "UUU.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/UUU.jpg"
-        },
-        {
-          "name": "UUUU.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/UUUU.jpg"
-        },
-        {
-          "name": "V.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/V.jpg"
-        },
-        {
-          "name": "W.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/W.jpg"
-        },
-        {
-          "name": "WW.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/WW.jpg"
-        },
-        {
-          "name": "WWW.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/WWW.jpg"
-        },
-        {
-          "name": "X.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/X.jpg"
-        },
-        {
           "name": "Y.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/Y.jpg"
-        },
-        {
-          "name": "Z.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/Z.jpg"
         }
       ]
     },
@@ -481,15 +456,14 @@
       "type": "directory",
       "children": [
         {
-          "name": "Maj",
-          "type": "directory",
-          "children": [
-            {
-              "name": "A.jpg",
-              "type": "file",
-              "path": "images/Forår/Maj/A.jpg"
-            }
-          ]
+          "name": "PXL_20260227_134635557.jpg",
+          "type": "file",
+          "path": "images/Forår/PXL_20260227_134635557.jpg"
+        },
+        {
+          "name": "PXL_20260228_144343674.jpg",
+          "type": "file",
+          "path": "images/Forår/PXL_20260228_144343674.jpg"
         }
       ]
     },
@@ -507,6 +481,37 @@
       "name": "GrassFooter1.png",
       "type": "file",
       "path": "images/GrassFooter1.png"
+    },
+    {
+      "name": "Hjemmeside stuf",
+      "type": "directory",
+      "children": [
+        {
+          "name": "GrassFooter1.png",
+          "type": "file",
+          "path": "images/Hjemmeside stuf/GrassFooter1.png"
+        },
+        {
+          "name": "ImageToCome.jpg",
+          "type": "file",
+          "path": "images/Hjemmeside stuf/ImageToCome.jpg"
+        },
+        {
+          "name": "K.jpg",
+          "type": "file",
+          "path": "images/Hjemmeside stuf/K.jpg"
+        },
+        {
+          "name": "Logo.png",
+          "type": "file",
+          "path": "images/Hjemmeside stuf/Logo.png"
+        },
+        {
+          "name": "MeInTree.jpg",
+          "type": "file",
+          "path": "images/Hjemmeside stuf/MeInTree.jpg"
+        }
+      ]
     },
     {
       "name": "Hverdag",
@@ -536,6 +541,11 @@
           "name": "PXL_20260116_122037934.MP.jpg",
           "type": "file",
           "path": "images/Hverdag/PXL_20260116_122037934.MP.jpg"
+        },
+        {
+          "name": "PXL_20260122_135648620.jpg",
+          "type": "file",
+          "path": "images/Hverdag/PXL_20260122_135648620.jpg"
         }
       ]
     },
@@ -563,6 +573,72 @@
       "name": "MeInTree.jpg",
       "type": "file",
       "path": "images/MeInTree.jpg"
+    },
+    {
+      "name": "O.jpg",
+      "type": "file",
+      "path": "images/O.jpg"
+    },
+    {
+      "name": "Omgivelser",
+      "type": "directory",
+      "children": [
+        {
+          "name": "FrontYard.jpg",
+          "type": "file",
+          "path": "images/Omgivelser/FrontYard.jpg"
+        },
+        {
+          "name": "Kitchen.jpg",
+          "type": "file",
+          "path": "images/Omgivelser/Kitchen.jpg"
+        },
+        {
+          "name": "PlayBall.jpg",
+          "type": "file",
+          "path": "images/Omgivelser/PlayBall.jpg"
+        },
+        {
+          "name": "PlayKitchenClosed.jpg",
+          "type": "file",
+          "path": "images/Omgivelser/PlayKitchenClosed.jpg"
+        },
+        {
+          "name": "PlayKitchenOpen.jpg",
+          "type": "file",
+          "path": "images/Omgivelser/PlayKitchenOpen.jpg"
+        },
+        {
+          "name": "PlayTower1.jpg",
+          "type": "file",
+          "path": "images/Omgivelser/PlayTower1.jpg"
+        },
+        {
+          "name": "ReadingCorner.jpg",
+          "type": "file",
+          "path": "images/Omgivelser/ReadingCorner.jpg"
+        },
+        {
+          "name": "Table.jpg",
+          "type": "file",
+          "path": "images/Omgivelser/Table.jpg"
+        },
+        {
+          "name": "Tennis.jpg",
+          "type": "file",
+          "path": "images/Omgivelser/Tennis.jpg"
+        },
+        {
+          "name": "Tree.jpg",
+          "type": "file",
+          "path": "images/Omgivelser/Tree.jpg"
+        },
+        {
+          "name": "Water.jpg",
+          "type": "file",
+          "path": "images/Omgivelser/Water.jpg"
+        }
+      ]
     },
     {
       "name": "PlayBall.jpg",
@@ -624,6 +700,11 @@
       "name": "Vinter",
       "type": "directory",
       "children": [
+        {
+          "name": "A.jpg",
+          "type": "file",
+          "path": "images/Vinter/A.jpg"
+        },
         {
           "name": "December",
           "type": "directory",
@@ -730,6 +811,166 @@
               "path": "images/Vinter/Januar/PXL_20260120_093331649.PORTRAIT.jpg"
             }
           ]
+        },
+        {
+          "name": "PP.jpg",
+          "type": "file",
+          "path": "images/Vinter/PP.jpg"
+        },
+        {
+          "name": "PPP.jpg",
+          "type": "file",
+          "path": "images/Vinter/PPP.jpg"
+        },
+        {
+          "name": "PXL_20260127_144926389.jpg",
+          "type": "file",
+          "path": "images/Vinter/PXL_20260127_144926389.jpg"
+        },
+        {
+          "name": "PXL_20260127_144931063.MP.jpg",
+          "type": "file",
+          "path": "images/Vinter/PXL_20260127_144931063.MP.jpg"
+        },
+        {
+          "name": "PXL_20260130_094903289.MP.jpg",
+          "type": "file",
+          "path": "images/Vinter/PXL_20260130_094903289.MP.jpg"
+        },
+        {
+          "name": "PXL_20260202_140921405.MP.jpg",
+          "type": "file",
+          "path": "images/Vinter/PXL_20260202_140921405.MP.jpg"
+        },
+        {
+          "name": "PXL_20260206_134509274.jpg",
+          "type": "file",
+          "path": "images/Vinter/PXL_20260206_134509274.jpg"
+        },
+        {
+          "name": "PXL_20260206_135252656.MP.jpg",
+          "type": "file",
+          "path": "images/Vinter/PXL_20260206_135252656.MP.jpg"
+        },
+        {
+          "name": "PXL_20260206_141345443.PORTRAIT.jpg",
+          "type": "file",
+          "path": "images/Vinter/PXL_20260206_141345443.PORTRAIT.jpg"
+        },
+        {
+          "name": "PXL_20260207_084553158.PORTRAIT.jpg",
+          "type": "file",
+          "path": "images/Vinter/PXL_20260207_084553158.PORTRAIT.jpg"
+        },
+        {
+          "name": "PXL_20260207_090856757.PORTRAIT.ORIGINAL.jpg",
+          "type": "file",
+          "path": "images/Vinter/PXL_20260207_090856757.PORTRAIT.ORIGINAL.jpg"
+        },
+        {
+          "name": "PXL_20260210_120828490.PORTRAIT.jpg",
+          "type": "file",
+          "path": "images/Vinter/PXL_20260210_120828490.PORTRAIT.jpg"
+        },
+        {
+          "name": "PXL_20260210_122204348.PORTRAIT.jpg",
+          "type": "file",
+          "path": "images/Vinter/PXL_20260210_122204348.PORTRAIT.jpg"
+        },
+        {
+          "name": "PXL_20260210_124330995.PORTRAIT.jpg",
+          "type": "file",
+          "path": "images/Vinter/PXL_20260210_124330995.PORTRAIT.jpg"
+        },
+        {
+          "name": "PXL_20260211_130116831.PORTRAIT.jpg",
+          "type": "file",
+          "path": "images/Vinter/PXL_20260211_130116831.PORTRAIT.jpg"
+        },
+        {
+          "name": "PXL_20260216_125905533.jpg",
+          "type": "file",
+          "path": "images/Vinter/PXL_20260216_125905533.jpg"
+        },
+        {
+          "name": "PXL_20260219_092431043.MP.jpg",
+          "type": "file",
+          "path": "images/Vinter/PXL_20260219_092431043.MP.jpg"
+        },
+        {
+          "name": "PXL_20260219_093722231.jpg",
+          "type": "file",
+          "path": "images/Vinter/PXL_20260219_093722231.jpg"
+        },
+        {
+          "name": "PXL_20260220_061601374.jpg",
+          "type": "file",
+          "path": "images/Vinter/PXL_20260220_061601374.jpg"
+        },
+        {
+          "name": "PXL_20260223_100555875.jpg",
+          "type": "file",
+          "path": "images/Vinter/PXL_20260223_100555875.jpg"
+        },
+        {
+          "name": "PXL_20260224_084537492.jpg",
+          "type": "file",
+          "path": "images/Vinter/PXL_20260224_084537492.jpg"
+        },
+        {
+          "name": "PXL_20260224_090902092.jpg",
+          "type": "file",
+          "path": "images/Vinter/PXL_20260224_090902092.jpg"
+        },
+        {
+          "name": "T.jpg",
+          "type": "file",
+          "path": "images/Vinter/T.jpg"
+        },
+        {
+          "name": "U.jpg",
+          "type": "file",
+          "path": "images/Vinter/U.jpg"
+        },
+        {
+          "name": "UUU.jpg",
+          "type": "file",
+          "path": "images/Vinter/UUU.jpg"
+        },
+        {
+          "name": "UUUU.jpg",
+          "type": "file",
+          "path": "images/Vinter/UUUU.jpg"
+        },
+        {
+          "name": "V.jpg",
+          "type": "file",
+          "path": "images/Vinter/V.jpg"
+        },
+        {
+          "name": "W.jpg",
+          "type": "file",
+          "path": "images/Vinter/W.jpg"
+        },
+        {
+          "name": "WW.jpg",
+          "type": "file",
+          "path": "images/Vinter/WW.jpg"
+        },
+        {
+          "name": "WWW.jpg",
+          "type": "file",
+          "path": "images/Vinter/WWW.jpg"
+        },
+        {
+          "name": "X.jpg",
+          "type": "file",
+          "path": "images/Vinter/X.jpg"
+        },
+        {
+          "name": "Z.jpg",
+          "type": "file",
+          "path": "images/Vinter/Z.jpg"
         }
       ]
     },
@@ -742,6 +983,32 @@
       "name": "Water.jpg",
       "type": "file",
       "path": "images/Water.jpg"
+    },
+    {
+      "name": "Årshjul",
+      "type": "directory",
+      "children": [
+        {
+          "name": "EfterårBaggrund.jpg",
+          "type": "file",
+          "path": "images/Årshjul/EfterårBaggrund.jpg"
+        },
+        {
+          "name": "ForårBaggrund.jpg",
+          "type": "file",
+          "path": "images/Årshjul/ForårBaggrund.jpg"
+        },
+        {
+          "name": "SommerBaggrund.jpg",
+          "type": "file",
+          "path": "images/Årshjul/SommerBaggrund.jpg"
+        },
+        {
+          "name": "VinterBaggrund.jpg",
+          "type": "file",
+          "path": "images/Årshjul/VinterBaggrund.jpg"
+        }
+      ]
     }
   ],
   "dynamic-text": [
