@@ -425,11 +425,6 @@
           "path": "images/ForsideKarusel/PXL_20260227_091024571.jpg"
         },
         {
-          "name": "PXL_20260227_134642635.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/PXL_20260227_134642635.jpg"
-        },
-        {
           "name": "PXL_20260228_144438306.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/PXL_20260228_144438306.jpg"
@@ -639,6 +634,11 @@
           "path": "images/Omgivelser/Water.jpg"
         }
       ]
+    },
+    {
+      "name": "PXL_20260227_134642635.jpg",
+      "type": "file",
+      "path": "images/PXL_20260227_134642635.jpg"
     },
     {
       "name": "PlayBall.jpg",
