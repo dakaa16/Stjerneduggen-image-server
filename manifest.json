@@ -1,11 +1,6 @@
 {
   "images": [
     {
-      "name": "D.jpg",
-      "type": "file",
-      "path": "images/D.jpg"
-    },
-    {
       "name": "Efterår",
       "type": "directory",
       "children": [
@@ -64,6 +59,11 @@
               "path": "images/Efterår/November/S.jpg"
             }
           ]
+        },
+        {
+          "name": "O.jpg",
+          "type": "file",
+          "path": "images/Efterår/O.jpg"
         },
         {
           "name": "Oktober",
@@ -212,6 +212,11 @@
           ]
         },
         {
+          "name": "PXL_20260114_090919986.PORTRAIT.jpg",
+          "type": "file",
+          "path": "images/Efterår/PXL_20260114_090919986.PORTRAIT.jpg"
+        },
+        {
           "name": "September",
           "type": "directory",
           "children": [
@@ -337,6 +342,11 @@
               "path": "images/Efterår/stående/PXL_20251025_080900647.PORTRAIT.jpg"
             }
           ]
+        },
+        {
+          "name": "Æ.jpg",
+          "type": "file",
+          "path": "images/Efterår/Æ.jpg"
         }
       ]
     },
@@ -420,11 +430,6 @@
           "path": "images/ForsideKarusel/M.jpg"
         },
         {
-          "name": "N.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/N.jpg"
-        },
-        {
           "name": "O.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/O.jpg"
@@ -443,11 +448,6 @@
           "name": "R.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/R.jpg"
-        },
-        {
-          "name": "S.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/S.jpg"
         },
         {
           "name": "SS.jpg",
@@ -500,11 +500,6 @@
           "path": "images/ForsideKarusel/ÅÅ.jpg"
         },
         {
-          "name": "Æ.jpg",
-          "type": "file",
-          "path": "images/ForsideKarusel/Æ.jpg"
-        },
-        {
           "name": "Ø.jpg",
           "type": "file",
           "path": "images/ForsideKarusel/Ø.jpg"
@@ -516,14 +511,49 @@
       "type": "directory",
       "children": [
         {
+          "name": "PXL_20260223_135535136.MP.jpg",
+          "type": "file",
+          "path": "images/Forår/PXL_20260223_135535136.MP.jpg"
+        },
+        {
+          "name": "PXL_20260227_091024571.jpg",
+          "type": "file",
+          "path": "images/Forår/PXL_20260227_091024571.jpg"
+        },
+        {
           "name": "PXL_20260227_134635557.jpg",
           "type": "file",
           "path": "images/Forår/PXL_20260227_134635557.jpg"
         },
         {
+          "name": "PXL_20260227_134642635.jpg",
+          "type": "file",
+          "path": "images/Forår/PXL_20260227_134642635.jpg"
+        },
+        {
           "name": "PXL_20260228_144343674.jpg",
           "type": "file",
           "path": "images/Forår/PXL_20260228_144343674.jpg"
+        },
+        {
+          "name": "PXL_20260228_144438306.jpg",
+          "type": "file",
+          "path": "images/Forår/PXL_20260228_144438306.jpg"
+        },
+        {
+          "name": "PXL_20260513_113411345.PORTRAIT.jpg",
+          "type": "file",
+          "path": "images/Forår/PXL_20260513_113411345.PORTRAIT.jpg"
+        },
+        {
+          "name": "Piger der går.jpg",
+          "type": "file",
+          "path": "images/Forår/Piger der går.jpg"
+        },
+        {
+          "name": "S.jpg",
+          "type": "file",
+          "path": "images/Forår/S.jpg"
         }
       ]
     },
@@ -541,6 +571,42 @@
       "name": "GrassFooter1.png",
       "type": "file",
       "path": "images/GrassFooter1.png"
+    },
+    {
+      "name": "Grundværdier",
+      "type": "directory",
+      "children": [
+        {
+          "name": "Annemoner.jpg",
+          "type": "file",
+          "path": "images/Grundværdier/Annemoner.jpg"
+        },
+        {
+          "name": "Fodbold.jpg",
+          "type": "file",
+          "path": "images/Grundværdier/Fodbold.jpg"
+        },
+        {
+          "name": "Mælkebøtter.jpg",
+          "type": "file",
+          "path": "images/Grundværdier/Mælkebøtter.jpg"
+        },
+        {
+          "name": "Træ.jpg",
+          "type": "file",
+          "path": "images/Grundværdier/Træ.jpg"
+        },
+        {
+          "name": "TræIHaven.jpg",
+          "type": "file",
+          "path": "images/Grundværdier/TræIHaven.jpg"
+        },
+        {
+          "name": "VandrePind.jpg",
+          "type": "file",
+          "path": "images/Grundværdier/VandrePind.jpg"
+        }
+      ]
     },
     {
       "name": "Hjemmeside stuf",
@@ -578,6 +644,16 @@
       "type": "directory",
       "children": [
         {
+          "name": "D.jpg",
+          "type": "file",
+          "path": "images/Hverdag/D.jpg"
+        },
+        {
+          "name": "N.jpg",
+          "type": "file",
+          "path": "images/Hverdag/N.jpg"
+        },
+        {
           "name": "PXL_20260112_093013934.PORTRAIT.ORIGINAL.jpg",
           "type": "file",
           "path": "images/Hverdag/PXL_20260112_093013934.PORTRAIT.ORIGINAL.jpg"
@@ -606,6 +682,26 @@
           "name": "PXL_20260122_135648620.jpg",
           "type": "file",
           "path": "images/Hverdag/PXL_20260122_135648620.jpg"
+        },
+        {
+          "name": "PXL_20260130_092549426.MP.jpg",
+          "type": "file",
+          "path": "images/Hverdag/PXL_20260130_092549426.MP.jpg"
+        },
+        {
+          "name": "PXL_20260204_085315754.jpg",
+          "type": "file",
+          "path": "images/Hverdag/PXL_20260204_085315754.jpg"
+        },
+        {
+          "name": "UU.jpg",
+          "type": "file",
+          "path": "images/Hverdag/UU.jpg"
+        },
+        {
+          "name": "Å.jpg",
+          "type": "file",
+          "path": "images/Hverdag/Å.jpg"
         }
       ]
     },
@@ -630,19 +726,9 @@
       "path": "images/Logo.png"
     },
     {
-      "name": "M.jpg",
-      "type": "file",
-      "path": "images/M.jpg"
-    },
-    {
       "name": "MeInTree.jpg",
       "type": "file",
       "path": "images/MeInTree.jpg"
-    },
-    {
-      "name": "O.jpg",
-      "type": "file",
-      "path": "images/O.jpg"
     },
     {
       "name": "Omgivelser",
@@ -706,49 +792,9 @@
       ]
     },
     {
-      "name": "PXL_20260114_090919986.PORTRAIT.jpg",
+      "name": "PXL_20260105_142106195.PORTRAIT.ORIGINAL.jpg",
       "type": "file",
-      "path": "images/PXL_20260114_090919986.PORTRAIT.jpg"
-    },
-    {
-      "name": "PXL_20260130_092549426.MP.jpg",
-      "type": "file",
-      "path": "images/PXL_20260130_092549426.MP.jpg"
-    },
-    {
-      "name": "PXL_20260204_085315754.jpg",
-      "type": "file",
-      "path": "images/PXL_20260204_085315754.jpg"
-    },
-    {
-      "name": "PXL_20260223_135535136.MP.jpg",
-      "type": "file",
-      "path": "images/PXL_20260223_135535136.MP.jpg"
-    },
-    {
-      "name": "PXL_20260227_091024571.jpg",
-      "type": "file",
-      "path": "images/PXL_20260227_091024571.jpg"
-    },
-    {
-      "name": "PXL_20260227_134642635.jpg",
-      "type": "file",
-      "path": "images/PXL_20260227_134642635.jpg"
-    },
-    {
-      "name": "PXL_20260228_144438306.jpg",
-      "type": "file",
-      "path": "images/PXL_20260228_144438306.jpg"
-    },
-    {
-      "name": "PXL_20260513_113411345.PORTRAIT.jpg",
-      "type": "file",
-      "path": "images/PXL_20260513_113411345.PORTRAIT.jpg"
-    },
-    {
-      "name": "Piger der går.jpg",
-      "type": "file",
-      "path": "images/Piger der går.jpg"
+      "path": "images/PXL_20260105_142106195.PORTRAIT.ORIGINAL.jpg"
     },
     {
       "name": "PlayBall.jpg",
@@ -769,11 +815,6 @@
       "name": "PlayTower1.jpg",
       "type": "file",
       "path": "images/PlayTower1.jpg"
-    },
-    {
-      "name": "Q.jpg",
-      "type": "file",
-      "path": "images/Q.jpg"
     },
     {
       "name": "ReadingCorner.jpg",
@@ -807,55 +848,9 @@
       "path": "images/Tennis.jpg"
     },
     {
-      "name": "Til forsiden",
-      "type": "directory",
-      "children": [
-        {
-          "name": ".trashed-1766083732-PXL_20251107_150927839.PORTRAIT.jpg",
-          "type": "file",
-          "path": "images/Til forsiden/.trashed-1766083732-PXL_20251107_150927839.PORTRAIT.jpg"
-        },
-        {
-          "name": ".trashed-1769701054-PXL_20251026_141759360.PORTRAIT.ORIGINAL.jpg",
-          "type": "file",
-          "path": "images/Til forsiden/.trashed-1769701054-PXL_20251026_141759360.PORTRAIT.ORIGINAL.jpg"
-        },
-        {
-          "name": "PXL_20260105_142106195.PORTRAIT.ORIGINAL.jpg",
-          "type": "file",
-          "path": "images/Til forsiden/PXL_20260105_142106195.PORTRAIT.ORIGINAL.jpg"
-        },
-        {
-          "name": "PXL_20260421_082033318.jpg",
-          "type": "file",
-          "path": "images/Til forsiden/PXL_20260421_082033318.jpg"
-        },
-        {
-          "name": "PXL_20260423_161051788.MP.jpg",
-          "type": "file",
-          "path": "images/Til forsiden/PXL_20260423_161051788.MP.jpg"
-        },
-        {
-          "name": "PXL_20260506_075419148.jpg",
-          "type": "file",
-          "path": "images/Til forsiden/PXL_20260506_075419148.jpg"
-        },
-        {
-          "name": "PXL_20260509_111808881.MP.jpg",
-          "type": "file",
-          "path": "images/Til forsiden/PXL_20260509_111808881.MP.jpg"
-        }
-      ]
-    },
-    {
       "name": "Tree.jpg",
       "type": "file",
       "path": "images/Tree.jpg"
-    },
-    {
-      "name": "UU.jpg",
-      "type": "file",
-      "path": "images/UU.jpg"
     },
     {
       "name": "Vinter",
@@ -974,6 +969,11 @@
           ]
         },
         {
+          "name": "M.jpg",
+          "type": "file",
+          "path": "images/Vinter/M.jpg"
+        },
+        {
           "name": "PP.jpg",
           "type": "file",
           "path": "images/Vinter/PP.jpg"
@@ -1084,6 +1084,11 @@
           "path": "images/Vinter/PXL_20260224_090902092.jpg"
         },
         {
+          "name": "Q.jpg",
+          "type": "file",
+          "path": "images/Vinter/Q.jpg"
+        },
+        {
           "name": "T.jpg",
           "type": "file",
           "path": "images/Vinter/T.jpg"
@@ -1144,11 +1149,6 @@
       "name": "Water.jpg",
       "type": "file",
       "path": "images/Water.jpg"
-    },
-    {
-      "name": "Å.jpg",
-      "type": "file",
-      "path": "images/Å.jpg"
     },
     {
       "name": "Årshjul",
